@@ -1,0 +1,4 @@
+Se diseñó, construyó e implementó una Sala Inteligente de Estimulación de Sensopercepciones para la Fundación CIMA, 
+la cual cuenta con un total de 5 módulos que complementan a las terapias que se imparten en dicha fundación, 
+los módulos que se han desarrollado están enlazados de manera inalámbrica hacia un módulo de control central,
+el cual es el encargado de la gestión de datos entre el dispositivo móvil y un módulo en específico. 
