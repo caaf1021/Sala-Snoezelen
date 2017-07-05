@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="negro">#000000</color>
+
+
+    <color name="image_border_start">#40990000</color>
+    <color name="image_border_end">#FF660000</color>
+    <color name="image_border_center">#FFFF3333</color>
+    <color name="blanco">#FFFFFF</color>
+
+
+    <color name="rojo">#ff0000</color>
+    <color name="rojoM">#ff0033</color>
+    <color name="rojoB">#ff0066</color>
+
+
+    <color name="amarillo">#fff000</color>
+    <color name="amarilloM">#fff033</color>
+    <color name="amarilloB">#fff066</color>
+
+    <color name="azul">#0000ff</color>
+    <color name="azulM">#0033ff</color>
+    <color name="azulB">#0066ff</color>
+
+
+    <color name="anaranjado">#ff9900</color>
+    <color name="verde">#00AA00</color>
+
+    <color name="button_normal">#929392</color>
+    <color name="button_pressed">#c0c1c0</color>
+    <color name="dialog_divider">@android:color/black</color>
+
+    <color name="default_piano">#EEEEEE</color>
+    <color name="default_pictogram">#EEEEEE</color>
+
+
+    <color name="paletaAmarillo">#fff000</color>
+    <color name="paletaAzul">#0000ff</color>
+    <color name="paletaRojo">#ff0000</color>
+    <color name="PaletaVerde">#4CAF50</color>
+    <color name="PaletaVioleta">#9C27B0</color>
+    <color name="PaletaNaranja">#FF9800</color>
+    <color name="PaletaCyan">#00BCD4</color>
+    <color name="PaletaCafe">#ffffff</color>
+    <color name="PaletaMorado">#673AB7</color>
+
+</resources>

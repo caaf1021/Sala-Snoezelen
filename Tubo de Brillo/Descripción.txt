@@ -1,0 +1,4 @@
+ 
+Este módulo consta de dos tubos que se iluminarán mediante led rgb, en el interior de estos tubos podemos poner 
+papel picadillo o cualquier elemento liviano de papel o similares,  se integra dos pulsantes para pie independientes 
+que se conectan con los módulos. 

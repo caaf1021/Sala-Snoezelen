@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccione un color"
+            android:id="@+id/txtsaludo"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/btnYellow"
+            android:layout_width="@dimen/button_paleta"
+            android:layout_height="@dimen/button_paleta"
+            android:background="@color/paletaAmarillo"
+            android:layout_margin="10dp"/>
+
+        <ImageButton
+            android:id="@+id/btnBlue"
+            android:layout_width="@dimen/button_paleta"
+            android:layout_height="@dimen/button_paleta"
+            android:background="@color/paletaAzul"
+            android:layout_margin="10dp"/>
+
+        <ImageButton
+            android:id="@+id/btnRed"
+            android:layout_width="@dimen/button_paleta"
+            android:layout_height="@dimen/button_paleta"
+            android:background="@color/paletaRojo"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnViolet"
+            android:layout_width="@dimen/button_paleta"
+            android:layout_height="@dimen/button_paleta"
+            android:background="@color/PaletaVioleta"
+            android:layout_margin="10dp"/>
+
+        <ImageButton
+            android:id="@+id/btnOrange"
+            android:layout_width="@dimen/button_paleta"
+            android:layout_height="@dimen/button_paleta"
+            android:background="@color/PaletaNaranja"
+            android:layout_margin="10dp"/>
+
+        <ImageButton
+            android:id="@+id/btnGreen"
+            android:layout_width="@dimen/button_paleta"
+            android:layout_height="@dimen/button_paleta"
+            android:background="@color/PaletaVerde"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnCyan"
+            android:layout_width="@dimen/button_paleta"
+            android:layout_height="@dimen/button_paleta"
+            android:background="@color/PaletaCyan"
+            android:layout_margin="10dp"/>
+
+        <ImageButton
+            android:id="@+id/btnWhite"
+            android:layout_width="@dimen/button_paleta"
+            android:layout_height="@dimen/button_paleta"
+            android:background="@color/PaletaCafe"
+            android:layout_margin="10dp"/>
+
+        <ImageButton
+            android:id="@+id/btnPurple"
+            android:layout_width="@dimen/button_paleta"
+            android:layout_height="@dimen/button_paleta"
+            android:background="@color/PaletaMorado"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+</LinearLayout>

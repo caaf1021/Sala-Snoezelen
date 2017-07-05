@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">40dp</dimen>
+    <dimen name="activity_vertical_margin">100dp</dimen>
+    <dimen name="barraAncho">200dp</dimen>
+    <dimen name="barraAlto">20dp</dimen>
+    <dimen name="seperacionComponentes">8dp</dimen>
+    <dimen name="btn_piano">100dp</dimen>
+    <dimen name="size_pictograph">120dp</dimen>
+    <dimen name="size_text_list_modules">25dp</dimen>
+    <dimen name="size_text_middle">30dp</dimen>
+    <dimen name="size_text_short">15dp</dimen>
+    <dimen name="size_text_big">60dp</dimen>
+    <dimen name="size_modul_piano_buuton">90dp</dimen>
+    <dimen name="separation_btn_piano">5dp</dimen>
+    <dimen name="separation_btn_pictogram">5dp</dimen>
+    <dimen name="button_paleta">100dp</dimen>
+    <dimen name="button_StairwayW">250dp</dimen>
+    <dimen name="button_StairwayH">60dp</dimen>
+    <dimen name="size_text_dice_rg">30dp</dimen>
+    <dimen name="button_dice">150dp</dimen>
+</resources>

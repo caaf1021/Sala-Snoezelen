@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_module_dice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="salacima.ec.edu.ups.est.salamultisensorial.presentation.ModuleDice"
+    android:background="@drawable/background_dice"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <ImageButton
+        android:id="@+id/btnDiceBack"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ico_back"
+        android:background="@android:color/transparent"
+        android:layout_marginStart="16dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="100dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbDice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloDado"
+        android:textSize="25dp"
+        android:textColor="@color/negro"
+        android:layout_marginStart="18dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/btnDiceThree"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+
+        android:id="@+id/btnDiceFour"
+        android:layout_width="@dimen/button_dice"
+        android:layout_height="@dimen/button_dice"
+        app:layout_constraintLeft_toLeftOf="@+id/btnDiceFive"
+        app:layout_constraintTop_toBottomOf="@+id/btnDiceFive"
+        app:srcCompat="@drawable/daice_four"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp" />
+
+
+    <ImageButton
+        android:id="@+id/btnDiceSix"
+        android:layout_width="@dimen/button_dice"
+        android:layout_height="@dimen/button_dice"
+        app:layout_constraintBottom_toBottomOf="@+id/btnDiceFive"
+        app:layout_constraintLeft_toRightOf="@+id/btnDiceFive"
+        app:layout_constraintTop_toBottomOf="@+id/btnDiceThree"
+        app:srcCompat="@drawable/daice_six" />
+
+    <ImageButton
+        android:id="@+id/btnDiceFive"
+        android:layout_width="@dimen/button_dice"
+        android:layout_height="@dimen/button_dice"
+        app:layout_constraintBottom_toBottomOf="@+id/btnDiceOne"
+        app:layout_constraintLeft_toRightOf="@+id/btnDiceOne"
+        app:layout_constraintTop_toTopOf="@+id/btnDiceOne"
+        app:srcCompat="@drawable/daice_five" />
+
+    <ImageButton
+        android:id="@+id/btnDiceOne"
+        android:layout_width="@dimen/button_dice"
+        android:layout_height="@dimen/button_dice"
+        android:layout_marginLeft="83dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toLeftOf="@+id/btnDiceBack"
+        app:layout_constraintTop_toTopOf="@+id/btnDiceBack"
+        app:srcCompat="@drawable/daice_one"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ImageButton
+        android:id="@+id/btnDiceTwo"
+        android:layout_width="@dimen/button_dice"
+        android:layout_height="@dimen/button_dice"
+        app:layout_constraintBottom_toBottomOf="@+id/btnDiceSix"
+        app:layout_constraintLeft_toRightOf="@+id/btnDiceSix"
+        app:layout_constraintTop_toTopOf="@+id/btnDiceSix"
+        app:srcCompat="@drawable/daice_two" />
+
+    <Button
+        android:id="@+id/btnDiceSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Enviar"
+        android:textSize="25dp"
+        android:layout_marginStart="14dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="14dp"
+        app:layout_constraintTop_toBottomOf="@+id/rgMode"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/rgMode" />
+
+
+    <Button
+        android:id="@+id/btnDiceRamdonColors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Colores Aleatorios"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="338dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="35dp" />
+
+    <ImageButton
+        android:id="@+id/btnDiceThree"
+        android:layout_width="150dp"
+        android:layout_height="@dimen/button_dice"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnDiceFive"
+        app:layout_constraintLeft_toLeftOf="@+id/btnDiceFive"
+        app:srcCompat="@drawable/daice_three"
+        android:layout_marginBottom="0dp" />
+
+    <RadioGroup
+        android:id="@+id/rgMode"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btnDiceTwo"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="50dp"
+        app:layout_constraintVertical_bias="0.498">
+
+        <RadioButton
+            android:id="@+id/rgDice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/rgMode1"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/size_text_dice_rg" />
+
+        <RadioButton
+            android:id="@+id/rgDice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rgMode2"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/size_text_dice_rg" />
+
+        <RadioButton
+            android:id="@+id/rgDice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rgMode3"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/size_text_dice_rg" />
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>

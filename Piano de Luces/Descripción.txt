@@ -1,0 +1,4 @@
+Enfocado al desarrollo de la memoria, atención y concentración, por medio de la creación de secuencias de luces,
+ animales, frutas o medios de transporte, los cuales deberán ser recordados y reproducidos por el niño, además 
+se considera la fuerza del pulso la cual se medirá en tres niveles (alto, medio o bajo) de presión, este módulo 
+contará con estímulos visuales y auditivos.

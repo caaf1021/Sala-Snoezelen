@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ModuleBubbleTube"
+    android:background="@drawable/tubo_burbujas"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <TextView
+        android:id="@+id/lbTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloBurbujas"
+        android:textSize="50dp"
+        android:textColor="@color/negro"
+        android:layout_marginStart="71dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintLeft_toLeftOf="@+id/btnBubbleColor1" />
+
+    <ImageButton
+        android:id="@+id/btnTubeBubbleBack"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/btnBubbleColor1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ico_back"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ImageButton
+        android:id="@+id/btnBubbleColor1"
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/btnBubbleColor2"
+        app:layout_constraintLeft_toRightOf="@+id/btnTubeBubbleBack"
+        app:layout_constraintTop_toTopOf="@+id/btnBubbleColor2"
+        app:srcCompat="@drawable/btntubeburbble"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ImageButton
+        android:id="@+id/btnBubbleColor2"
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="94dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="93dp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btnBubbleColor1"
+        app:layout_constraintTop_toTopOf="@+id/lbTitulo"
+        app:srcCompat="@drawable/btntubeburbble"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Secuencia"
+        android:textColor="@color/negro"
+        android:textSize="20dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/ltsSecuenciaBubble"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/ltsSecuenciaBubble" />
+
+    <Button
+                android:id="@+id/btnBubbleRemove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Quitar"
+        android:textSize="20dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="38dp"
+        app:layout_constraintTop_toBottomOf="@+id/ltsSecuenciaBubble"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/ltsSecuenciaBubble" />
+
+
+
+
+
+            <Button
+                android:id="@+id/btnBubbleAccept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="enviar"
+                android:textSize="25dp"
+                android:layout_marginStart="56dp"
+                tools:layout_constraintTop_creator="1"
+                android:layout_marginTop="18dp"
+                app:layout_constraintTop_toBottomOf="@+id/rgBubbleMode"
+                tools:layout_constraintLeft_creator="1"
+                app:layout_constraintLeft_toLeftOf="@+id/rgBubbleMode" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modo de uso"
+        android:textColor="@color/negro"
+        android:textSize="@dimen/size_text_dice_rg"
+        android:layout_marginStart="47dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/rgBubbleMode"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintLeft_toLeftOf="@+id/rgBubbleMode" />
+
+    <RadioGroup
+        android:id="@+id/rgBubbleMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="12dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="@+id/ltsSecuenciaBubble"
+        app:layout_constraintLeft_toRightOf="@+id/btnBubbleColor2">
+
+        <RadioButton
+            android:id="@+id/rgBubblePersonalized"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rgMode1"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/size_text_dice_rg"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:id="@+id/rgBunbbleDemonstration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rgMode2"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/size_text_dice_rg"
+            android:padding="5dp"/>
+
+        <RadioButton
+            android:id="@+id/rgBubbleFinalize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rgMode3"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/size_text_dice_rg"
+            android:padding="5dp"/>
+
+        <RadioButton
+            android:id="@+id/rgBubbleActivateTubes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rgMode4"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/size_text_dice_rg"
+            android:padding="5dp"/>
+
+        <RadioButton
+            android:id="@+id/rgBubbleActivateButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rgMode5"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/size_text_dice_rg" />
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/ltsSecuenciaBubble"
+        android:layout_width="100dp"
+        android:layout_height="240dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="58dp"
+        android:background="@color/azul"
+        android:textColor="@color/negro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btnBubbleColor2"
+        app:layout_constraintRight_toLeftOf="@+id/rgBubbleMode"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,4 @@
+Este módulo ayuda en el trabajo de vocalización, estimulando el sentido de la vista, mejorando la concentración,
+ permitiéndole al niño controlar el volumen de su voz,  cuenta con ocho escalones que se pueden configurar con 
+diferentes colores, los cuales se encenderán con colores llamativos según la potencia de los sonidos generados
+ (mayor potencia mayor cantidad de escalones encendidos y viceversa).

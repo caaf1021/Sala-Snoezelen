@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pictogramas"
+    tools:context=".presentation.ModulePictograms">
+
+
+    <ImageButton
+        android:id="@+id/btnPicBack"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ico_back"
+        android:background="@android:color/transparent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modulo Pictogramas"
+        android:paddingLeft="50dp"
+        android:textSize="35dp"
+        android:textColor="@color/negro"
+        android:layout_marginStart="191dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ImageButton
+        android:id="@+id/btnPic1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/default_pictogram"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView7"
+        android:layout_marginStart="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="110dp" />
+
+    <ImageButton
+        android:id="@+id/btnPic2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/default_pictogram"
+        app:layout_constraintLeft_toRightOf="@+id/btnPic1"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="110dp" />
+
+    <ImageButton
+        android:id="@+id/btnPic3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="7dp"
+        android:background="@color/default_pictogram"
+        app:layout_constraintLeft_toRightOf="@+id/btnPic2"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginLeft="7dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="110dp" />
+
+    <ImageButton
+        android:id="@+id/btnPic4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/default_pictogram"
+        app:layout_constraintLeft_toRightOf="@+id/btnPic3"
+        android:layout_marginLeft="7dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="7dp" />
+
+    <ImageButton
+        android:id="@+id/btnPic5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/default_pictogram"
+        app:layout_constraintTop_toBottomOf="@+id/btnPic1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/btnPic1" />
+
+    <ImageButton
+        android:id="@+id/btnPic6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="8dp"
+        android:background="@color/default_pictogram"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnPic2"
+        app:layout_constraintLeft_toRightOf="@+id/btnPic5"
+        android:layout_marginLeft="8dp" />
+
+    <ImageButton
+        android:id="@+id/btnPic7"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/default_pictogram"
+        app:layout_constraintLeft_toRightOf="@+id/btnPic6"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnPic3"
+        android:layout_marginStart="8dp" />
+
+    <ImageButton
+        android:id="@+id/btnPic8"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/default_pictogram"
+        app:layout_constraintLeft_toRightOf="@+id/btnPic7"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnPic4"
+        android:layout_marginStart="8dp" />
+
+    <ImageButton
+        android:id="@+id/btnPic9"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/default_pictogram"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnPic5"
+        app:layout_constraintLeft_toLeftOf="@+id/btnPic5" />
+
+    <ImageButton
+        android:id="@+id/btnPic10"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/default_pictogram"
+        app:layout_constraintLeft_toRightOf="@+id/btnPic9"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnPic6"
+        android:layout_marginStart="8dp" />
+
+    <ImageButton
+        android:id="@+id/btnPic12"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/default_pictogram"
+        app:layout_constraintLeft_toRightOf="@+id/btnPic11"
+        app:layout_constraintTop_toBottomOf="@+id/btnPic8" />
+
+    <ImageButton
+        android:id="@+id/btnPic11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/default_pictogram"
+        app:layout_constraintBottom_toBottomOf="@+id/btnPic10"
+        app:layout_constraintLeft_toLeftOf="@+id/btnPic3"
+        app:layout_constraintRight_toRightOf="@+id/btnPic3"
+        app:layout_constraintTop_toTopOf="@+id/btnPic10"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/btnPicSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Enviar"
+        android:textSize="25dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="67dp"
+        android:layout_marginEnd="67dp"
+        app:layout_constraintRight_toRightOf="@+id/rgPicMode"
+        android:layout_marginTop="17dp"
+        app:layout_constraintTop_toBottomOf="@+id/rgPicMode"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/rgPicMode" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modo de uso"
+        android:textColor="@color/negro"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/rgPicMode"
+        android:layout_marginStart="18dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/rgPicMode"
+        android:layout_marginLeft="18dp"
+        android:textSize="@dimen/size_text_dice_rg"/>
+
+    <RadioGroup
+        android:id="@+id/rgPicMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/amarillo"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/btnPic8"
+        android:layout_marginEnd="42dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="47dp">
+
+        <RadioButton
+            android:id="@+id/rgPicMode1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/rgMode1"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/size_text_dice_rg"/>
+
+        <RadioButton
+            android:id="@+id/rgPicMode2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rgMode2"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/size_text_dice_rg"/>
+
+        <RadioButton
+            android:id="@+id/rgPicMode3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rgMode3"
+            android:textColor="@color/negro"
+            android:textSize="@dimen/size_text_dice_rg"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnPicRamdonColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Colores Aleatorios"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnPicSend"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/btnPicSend"
+        android:textSize="20dp"
+        android:layout_marginLeft="0dp" />
+
+</android.support.constraint.ConstraintLayout>

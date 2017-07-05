@@ -1,0 +1,3 @@
+Es el cual nos permite la comunicación entre el dispositivo móvil y los diferentes módulos de la sala, 
+el cual permitirá al usuario configurar cada uno de los módulos de acuerdo a sus necesidades del momento 
+y contendrá también los diferentes sonidos necesarios para la terapia que se esté realizando.

@@ -1,0 +1,3 @@
+La sala cuenta con un módulo adicional, el cual cumple la función de iluminar el ambiente de la sala acorde a las 
+necesidades del terapista y el niño. La idea principal es que mientras se imparte la terapia, el niño se sienta
+ cómodo con el color de su preferencia, teniendo una gama de colores dados por los módulos RGB colocados en la sala.

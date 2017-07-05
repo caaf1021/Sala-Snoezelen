@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Sala CIMA</string>
+    <string name="prompt_email">Usuario</string>
+    <string name="prompt_password">Contrasena</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Ingresar</string>
+    <string name="error_incorrect_password">La contrasena es incorrecta</string>
+    <string name="error_field_required">Campo obligatorio</string>
+    <string name="name_title_piano">Seleccione un color</string>
+    <string name="select_piano_pictograph">Usar Pictogramas</string>
+    <string name="seleccionN">Selecionar</string>
+    <string name="chb_mod1">Tubo de brillo</string>
+    <string name="chb_mod2">Escalera de luces</string>
+    <string name="chb_mod3">Piano</string>
+    <string name="chb_mod4">Pictogramas</string>
+    <string name="chb_mod5">Dado</string>
+    <string name="uso">Modo de Uso</string>
+    <string name="rb_uso1">Voz</string>
+    <string name="rb_uso2">Boton</string>
+    <string name="rb_uso3">Plataforma</string>
+    <string name="selc_color">Seleccionar Color</string>
+    <string name="title_select_light">Seleccione un Color de luces</string>
+
+    <string name="mostrar">mostrar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <string name="tituloBurbujas">Modulo: tubo de brillo</string>
+    <string name="tituloEscalera">Modulo: Escaleras de luces</string>
+    <string name="tituloDado">Modulo: Dado de luces</string>
+    <string name="tituloPiano">Modulo: Piano de luces</string>
+    <string name="tituloPictogramas">Modulo: Pictogramas</string>
+    <string name="msjbtnpatientSelected">Seleccione un paciente</string>
+    <string name="msjerrorColorSelected">Seleccione los colores</string>
+    <string name="msjErrorPictograma1">Seleccione todos los pictogramas</string>
+    <string name="msjErrorPictograma2">Seleccione un color para los botones</string>
+
+    <string name="rgMode1">Personalizado</string>
+    <string name="rgMode2">Demostracion</string>
+    <string name="rgMode3">Finalizar</string>
+    <string name="rgMode4">Activar tubos</string>
+    <string name="rgMode5">Activar con pulsantes</string>
+
+    <string name="about1">Desarrollador: Paul Andres Quito Naula</string>
+    <string name="about2">Tutor: Dr. Vladimir Robles</string>
+    <string name="about3">Grupo de investigacion (GI-IATa)</string>
+
+
+
+</resources>

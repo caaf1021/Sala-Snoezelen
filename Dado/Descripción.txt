@@ -1,0 +1,3 @@
+El dado de colores nos permite configurar cada uno de sus lados de un color diferente, 
+cambiará la iluminación de la Sala conforme el lado que al girar el dado quede en la 
+parte superior.

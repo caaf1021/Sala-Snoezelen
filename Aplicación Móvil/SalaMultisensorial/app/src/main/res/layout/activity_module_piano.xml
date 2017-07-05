@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ModulePiano"
+    android:background="@drawable/piano"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modo"
+        android:textSize="30dp"
+        android:layout_marginStart="40dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/rgPianoMode"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/rgPianoMode" />
+
+    <ImageButton
+        android:id="@+id/btnPianoBack"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        app:srcCompat="@drawable/ico_back"
+        android:background="@android:color/transparent"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:text="@string/name_title_piano"
+        android:textColor="@color/blanco"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_piano_titulo"
+        android:textSize="50dp"
+        android:layout_marginStart="229dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="32dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPianoCreateSequence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Secuencia"
+        android:layout_marginStart="16dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnPianoRandomColors" />
+
+    <Button
+        android:id="@+id/btnPianoRemoveLast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:layout_marginEnd="26dp"
+        android:textSize="25dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="106dp" />
+
+    <Button
+        android:id="@+id/btnPianoSend"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:textSize="25dp"
+        android:layout_marginStart="301dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="301dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="42dp"
+        app:layout_constraintLeft_toLeftOf="@+id/txt_piano_titulo" />
+
+    <Button
+        android:id="@+id/btnPianoRandomColors"
+        android:layout_width="131dp"
+        android:layout_height="52dp"
+        android:text="Colores Aleatorios"
+        tools:layout_editor_absoluteY="277dp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        android:layout_marginBottom="26dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/btnPianoSelectedColor"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Color"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        tools:layout_editor_absoluteY="277dp"
+        tools:layout_editor_absoluteX="344dp"
+        app:layout_constraintRight_toRightOf="@+id/linearLayout2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnPianoRandomColors"
+        tools:layout_constraintBaseline_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout2" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nivel de fuerza"
+        android:layout_marginEnd="61dp"
+        android:textSize="20dp"
+        app:layout_constraintRight_toLeftOf="@+id/btnPianoSelectedColor"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/nFuerza"
+        android:layout_marginBottom="9dp" />
+    <RadioGroup
+        android:id="@+id/nFuerza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="43dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView8">
+
+        <RadioButton
+            android:id="@+id/rBajo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bajo"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/rMedio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Medio"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/rAlto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Alto"
+            android:textSize="20dp"/>
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Secuencia"
+        android:textColor="@color/blanco"
+        android:textSize="20dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/ltsPianoSequence" />
+
+    <ListView
+        android:id="@+id/ltsPianoSequence"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/azul"
+        android:textColor="@color/negro"
+        app:layout_constraintBottom_toTopOf="@+id/btnPianoRemoveLast"
+        app:layout_constraintLeft_toRightOf="@+id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="16dp"
+        android:id="@+id/linearLayout2"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <ImageButton
+            android:id="@+id/btnPiano8"
+            android:layout_width="@dimen/size_modul_piano_buuton"
+            android:layout_height="@dimen/size_modul_piano_buuton"
+            android:layout_margin="@dimen/separation_btn_piano"
+            android:background="@color/default_piano" />
+
+        <ImageButton
+            android:id="@+id/btnPiano7"
+            android:layout_width="@dimen/size_modul_piano_buuton"
+            android:layout_height="@dimen/size_modul_piano_buuton"
+            android:layout_margin="@dimen/separation_btn_piano"
+            android:background="@color/default_piano" />
+
+        <ImageButton
+            android:id="@+id/btnPiano6"
+            android:layout_width="@dimen/size_modul_piano_buuton"
+            android:layout_height="@dimen/size_modul_piano_buuton"
+            android:layout_margin="@dimen/separation_btn_piano"
+            android:background="@color/default_piano" />
+
+        <ImageButton
+            android:id="@+id/btnPiano5"
+            android:layout_width="@dimen/size_modul_piano_buuton"
+            android:layout_height="@dimen/size_modul_piano_buuton"
+            android:layout_margin="@dimen/separation_btn_piano"
+            android:background="@color/default_piano" />
+
+        <ImageButton
+            android:id="@+id/btnPiano4"
+            android:layout_width="@dimen/size_modul_piano_buuton"
+            android:layout_height="@dimen/size_modul_piano_buuton"
+            android:layout_margin="@dimen/separation_btn_piano"
+            android:background="@color/default_piano" />
+
+        <ImageButton
+            android:id="@+id/btnPiano3"
+            android:layout_width="@dimen/size_modul_piano_buuton"
+            android:layout_height="@dimen/size_modul_piano_buuton"
+            android:layout_margin="@dimen/separation_btn_piano"
+            android:background="@color/default_piano" />
+
+        <ImageButton
+            android:id="@+id/btnPiano2"
+            android:layout_width="@dimen/size_modul_piano_buuton"
+            android:layout_height="@dimen/size_modul_piano_buuton"
+            android:layout_margin="@dimen/separation_btn_piano"
+            android:background="@color/default_piano" />
+
+        <ImageButton
+            android:id="@+id/btnPiano1"
+            android:layout_width="@dimen/size_modul_piano_buuton"
+            android:layout_height="@dimen/size_modul_piano_buuton"
+            android:layout_margin="@dimen/separation_btn_piano"
+            android:background="@color/default_piano" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rgPianoMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/btnPianoSend"
+        android:layout_marginStart="16dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintLeft_toRightOf="@+id/btnPianoSelectedColor">
+
+        <RadioButton
+            android:id="@+id/rgPianoPersonalized"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Personalizado"
+            android:textSize="@dimen/size_text_dice_rg"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rgPianoDemonstration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Demostracion"
+            android:textSize="@dimen/size_text_dice_rg"/>
+
+        <RadioButton
+            android:id="@+id/rgPianoFinalize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Finalizar"
+            android:textSize="@dimen/size_text_dice_rg"/>
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>
